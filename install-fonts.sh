@@ -1,6 +1,6 @@
 #!/bin/bash
 
-the_fonts_dir=/Volumes/<PATH>/fonts
+the_fonts_dir=/Volumes/DuMienu/fonts
 echo "the_fonts_dir: $the_fonts_dir"
 
 find_command="find \"$the_fonts_dir\" \( -name '*.[o,t]tf' -or -name '*.pcf.gz' \) -type f -print0"
